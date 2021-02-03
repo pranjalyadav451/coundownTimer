@@ -31,4 +31,5 @@ body{
     width:50vw;
     justify-content: space-between;
     font-size: large;
+    flex-wrap: wrap;
 }
