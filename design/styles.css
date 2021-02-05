@@ -23,7 +23,7 @@ body{
     justify-content: space-around;
     align-content: flex-end;
     align-items: center;
-    margin:2rem;
+    /* margin:2rem; */
 }
 .inner{
     display: flex;
