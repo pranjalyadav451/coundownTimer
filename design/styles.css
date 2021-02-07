@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 *{
     margin:0;
     box-sizing: border-box;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Space Mono",monospace;
 }
 body{
+    padding:2rem;
     min-height: 100vh;
     background-image:url('../images/bg.jpg');
     background-size: cover;
@@ -13,8 +15,11 @@ body{
     color:white;
 }
 .title{
-    margin:2rem;
+    margin:1rem;
     font-size: 50px;
+    font-weight:400;
+    font-family:"Roboto Mono",monospace;
+    font-weight:600;
 
 }
 .main{
@@ -23,11 +28,10 @@ body{
     justify-content: space-around;
     align-content: flex-end;
     align-items: center;
-    /* margin:2rem; */
+    /* font-family: "Roboto Mono",monospace; */
 }
 .inner{
     display: flex;
-    /* padding:2rem; */
     width:50vw;
     justify-content: space-between;
     font-size: large;
@@ -39,15 +43,5 @@ body{
     animation-iteration-count: infinite;
     text-decoration: underline 1px;
     text-underline-offset: .5rem;
-}
-@keyframes dance{
-    0%{
-        text-decoration-color:rgb(72, 240, 252);
-    }
-    25%{
-        text-decoration-color:rgb(252, 107, 55);
-    }
-    100%{
-        text-decoration-color:rgb(72, 240, 252);
-    }
+    font-weight:400;
 }
